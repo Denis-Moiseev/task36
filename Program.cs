@@ -1,8 +1,4 @@
-﻿// Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
-// [3, 7, 23, 12] -> 19
-// [-4, -6, 89, 6] -> 0
-
-int GetSumElementsOddPositions(int[] array)
+﻿int GetSumElementsOddPositions(int[] array)
 {
     int SumElements = 0;
     for (int i = 1; i < array.Length; i = i + 2)
